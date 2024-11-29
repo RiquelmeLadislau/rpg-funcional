@@ -1,9 +1,9 @@
-let option
+let option = ''
 let inventory = []
 
 let name = prompt(`Digite o nome do seu personagem`)
+
 do{
-alert(`Bem vindo, aqui é meu projeto de um rpg funcional!!`)
     option = prompt(`Selecione uma das opções para o seu personagem 
         1- Andar
         2- Inventário
@@ -14,7 +14,6 @@ alert(`Bem vindo, aqui é meu projeto de um rpg funcional!!`)
         7- Exit`)
     switch(option){
         case '1':
-            andar()
             break
         case '2':
             break
