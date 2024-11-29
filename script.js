@@ -1,36 +1,9 @@
 let option
-let inventory = {
-    armor: [],
-    sword: [],
-    magicItems: [],
-    bow: [],
-    potions: []
+let inventory = []
 
-
-}
 let name = prompt(`Digite o nome do seu personagem`)
-
-alert(`Bem vindo, aqui é meu projeto de um rpg funcional!!`)
-
-function andar (){
-    const walkAnyWay = prompt(`Você deseja andar para Qual lado ex:frente,trás,lado esquerdo,lado direito?`)
-    if(walkAnyWay === 'frente'){
-        alert(`você andou para frente`)
-    
-    } else if(walkAnyWay === 'trás'){
-        alert(`você andou para trás`)
-    } else if(walkAnyWay === 'lado esquerdo'){
-        alert(`Você andou para o lado esquerdo`)
-    } else {
-        alert(`Você andou para o lado direito`)
-    }
-}
-function inventory (){
-    if(inventory.length === 0){
-        alert(`Não há nada no seu inventário, ande para conseguir itens`)
-    }
-}
 do{
+alert(`Bem vindo, aqui é meu projeto de um rpg funcional!!`)
     option = prompt(`Selecione uma das opções para o seu personagem 
         1- Andar
         2- Inventário
@@ -48,6 +21,7 @@ do{
         case '3':
             break
         case '4':
+
             break
         case '5':
             break
