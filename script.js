@@ -14,7 +14,7 @@ do{
 
 switch(menu){
     case '1':
-        character()
+        character(user)
     case '2':
     case '3':
         alert(`Você escoljeu sair`)
