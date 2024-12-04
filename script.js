@@ -1,8 +1,8 @@
 menu = ''
 let user = prompt(`Nome do seu personagem`)
 
-function character(){
-    const char = {
+function character(user){
+    const user = {
         name: prompt(`digite o nome do seu personagem`),
         gender: prompt(`Qual o gênero dele?`),
         inventory: prompt(`Escolha`)
