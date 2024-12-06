@@ -1,11 +1,18 @@
 menu = ''
-let user = prompt(`Nome do seu personagem`)
+let user = prompt(`Nome do usuario`)
 
-function character(user){
+function character(){
     const user = {
         name: prompt(`digite o nome do seu personagem`),
         gender: prompt(`Qual o gênero dele?`),
-        inventory: prompt(`Escolha`)
+        inventory: prompt(`Escolha entre \n 1. arco \n2. espada \n3.escudo  `),
+    }
+}
+
+function adventure(){
+    const walk
+    if (walk === true){
+        
     }
 }
 
@@ -14,10 +21,11 @@ do{
 
 switch(menu){
     case '1':
-        character(user)
+        character()
     case '2':
+        adventure()
     case '3':
-        alert(`Você escoljeu sair`)
+        alert(`Você escolheu sair`)
     default:
         alert(`opção inválida`)
 
